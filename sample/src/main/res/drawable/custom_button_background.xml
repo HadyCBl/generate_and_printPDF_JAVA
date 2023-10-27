@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- res/drawable/custom_button_background.xml -->
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <solid android:color="#00FFFF" />  <!-- Cambia el color de fondo a cian (cyan) -->
+        <corners android:radius="10dp" />  <!-- Define la esquina redondeada -->
+    </shape>
+
+</selector>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_300sdp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|top">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.emon.exampleXMLtoPDF.MainActivity">
+        <!-- Hola mundo -->
+        <TextView
+            android:id="@+id/tv_print_area"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_gravity="top"
+            android:layout_margin="5dp"
+            android:background="@android:color/holo_blue_dark"
+            android:gravity="top|center"
+            android:text="Hola mundo"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <!-- Imprimir Texto -->
+        <Button
+            android:id="@+id/bt_print"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="Imprimir Texto"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText" />
+        <!-- Imprimir Texto 3 veces  -->
+        <Button
+            android:id="@+id/bt_print_multi_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="Imprimir 3 "
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText" />
+        <!-- Guardar   -->
+        <Button
+            android:id="@+id/bt_print_multi_page_dynamic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="añadir texto"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText" />
+        <!-- QR   -->
+        <Button
+            android:id="@+id/bt_horizontal_scroll_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="Generar y guardar "
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText" />
+        <!-- demo   -->
+        <Button
+            android:id="@+id/bt_demo_barcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="demo QR"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText" />
+        <!-- demo   -->
+
+        <Button
+            android:id="@+id/bt_print_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="imprimir lista"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText" />
+        <!-- demo   -->
+
+        <Button
+            android:id="@+id/bt_invoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="Items"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText" />
+
+        <!-- demo   -->
+        <Button
+            android:id="@+id/bt_print_landscape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:text="Print PDF"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:visibility="gone"
+            tools:ignore="HardcodedText"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/bt_consulta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Ir a Consulta"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</ScrollView>
